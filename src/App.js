@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <h2 id='h2'>For Burp Suite Testing</h2>
       <header className="App-header">
-        Enter your name: <input id="name" onChange={(e) =>setUserName(e.target.value)} value = {userName} type="text" /> <br/><br/>
+        Enter your name: <input id="name" onChange={(e) =>setUserName(e.target.value)} value = {userName} type="text" />
         Enter your password: <input placeholder='number only' onChange={(e) => setUserPassword(e.target.value)} value = {userPassword} id="password" min="1" max="10000" type="number" />
        <small>Name: {userName} <br/> Password: {userPassword} </small>
         <input onClick={submit} type="submit" value="submit"/>
