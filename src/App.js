@@ -11,7 +11,7 @@ function App() {
     let pwd = userPassword
     let h2 = document.getElementById("h2")
     if(name == "abhishek" & pwd == 1234){
-      h2.innerHTML = `Password Matched Pal <span> Passwrod: ${pwd}</span>`
+      h2.innerHTML = `Password Matched Pal`
       setUserName("")
       setUserPassword("")
     }else{
